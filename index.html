@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-univ.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Section -->    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/UnivLogo.png" alt="University Logo"></a>
+            <div class="nav-links" id="NavLinks">
+                <i class="fa fa-window-close" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>World's Leading University</h1>
+        <p>We have long been at the forefront of breakthrough research and innovation. <br>
+            We offer several degree programs, major, minor and specializations, as well as research opportunities
+        </p>
+        <a href="" class="V-Btn">Visit Us To Know More>></a>
+    </div>
+    </section>
+<!-- Courses Section-->
+    <section class="Course">
+        <h1>Courses</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="course-row">
+            <div class="course-col">
+                <h3>UNDER GRADUATE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>POST GRADUATE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>PhD</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+<!-- JavaScript for the Toggle Menu-->    
+    <script>
+        var navlinks = document.getElementById("NavLinks");
+        function ShowMenu(){
+            navlinks.style.right = "0";
+        }
+        function HideMenu(){
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
