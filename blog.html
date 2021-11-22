@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-univ.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Section -->    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/UnivLogo.png" alt="University Logo"></a>
+            <div class="nav-links" id="NavLinks">
+                <i class="fa fa-window-close" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1> SHU's Blog </h1>
+    </section>
+
+<!-- Blog Page Content-->   
+    <section class="blog-content">
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="images/graduatedStudent.jpg" alt="Graduate Student Image">
+                <h2>Certifications & Online Degrees for 2021</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttit
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttit
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+
+                <div class="comment-box">
+                    <h3> Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="V-Btn content-btn"> POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3> Post Categories</h3>
+                <div>
+                    <span> Business Anayltics</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span> Data Science</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span> Machine Learning</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span> Web Development</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span> Mobile App Development</span>
+                    <span>50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+
+
+<!-- Footer Section-->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Donec semper hendrerit risus, eu venenatis mi cursus vel. 
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook "></i>
+            <i class="fa fa-instagram "></i>
+            <i class="fa fa-twitter "></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart"></i> by Dhaval Mahajan</p>
+    </section>
+
+<!-- JavaScript for the Toggle Menu-->    
+    <script>
+        var navlinks = document.getElementById("NavLinks");
+        function ShowMenu(){
+            navlinks.style.right = "0";
+        }
+        function HideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
