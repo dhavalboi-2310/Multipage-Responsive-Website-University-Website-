@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-univ.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Section -->    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/UnivLogo.png" alt="University Logo"></a>
+            <div class="nav-links" id="NavLinks">
+                <i class="fa fa-window-close" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1> Courses We Offer </h1>
+    </section>
+
+<!-- Content: Course Page-->
+<!-- Courses Section-->
+    <section class="Course">
+        <h1>Courses</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="course-row">
+            <div class="course-col">
+                <h3>UNDER GRADUATE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>POST GRADUATE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>PhD</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec semper hendrerit risus, eu venenatis mi cursus vel. Maecenas eleifend at ipsum sit amet pretium. 
+                    In eget lacus vitae ex auctor egestas. Donec tempor nulla ut mauris aliquet porttitor.
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!-- Facilities Section -->
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p> We offer a wide spectrum of co-curricular, extracurricular, 
+            and athletic opportunities in addition to academics,<br>
+            which stands on the pillars of many 
+            Student Clubs and Student Councils.
+            <div class="facil-row">
+                <div class="facil-col">
+                    <img src="images/library.jpg" alt="library">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Donec semper hendrerit risus, eu venenatis mi cursus vel. 
+                    </p>
+                </div>
+                <div class="facil-col">
+                    <img src="images/cafeteria.jpg" alt="canteen">
+                    <h3>Cafeteria - Tasty & Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Donec semper hendrerit risus, eu venenatis mi cursus vel. 
+                    </p>
+                </div>
+                <div class="facil-col">
+                    <img src="images/playground.jpg" alt="playground">
+                    <h3>Playground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Donec semper hendrerit risus, eu venenatis mi cursus vel. 
+                    </p>
+                </div>
+                
+            </div>
+        </p>
+    </section>
+   
+
+
+
+<!-- Footer Section-->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Donec semper hendrerit risus, eu venenatis mi cursus vel. 
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook "></i>
+            <i class="fa fa-instagram "></i>
+            <i class="fa fa-twitter "></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart"></i> by Dhaval Mahajan</p>
+    </section>
+
+<!-- JavaScript for the Toggle Menu-->    
+    <script>
+        var navlinks = document.getElementById("NavLinks");
+        function ShowMenu(){
+            navlinks.style.right = "0";
+        }
+        function HideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
