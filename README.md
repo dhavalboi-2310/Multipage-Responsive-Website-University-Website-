@@ -1,2 +1,2 @@
-# Multipage-Responsive-Website--University-Website-
+# University-Website-Design
  Multipage Website using HTML & CSS
